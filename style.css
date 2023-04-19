@@ -1,0 +1,136 @@
+body {
+    background: #f2eae2;
+    height: 100vh;
+    display: flex;
+    justify-content: Center;
+    align-items: center;
+  }
+  
+  .card {
+    height: 611px;
+    width: 343px;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+  
+  .mobile-img {
+    max-width: 100%;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .desktop-img {
+    display: none;
+  }
+  
+  section {
+    padding: 24px;
+  }
+  h2 {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 5px;
+    text-align: left;
+    color: #6c7289;
+    margin-bottom: 12px;
+  }
+  
+  h1 {
+    font-family: Fraunces;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1c232b;
+    margin-bottom: 16px;
+  }
+  
+  .description {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #6c7289;
+    margin-bottom: 24px;
+  }
+  
+  .price-box {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    margin-bottom: 20px;
+  }
+  
+  .new-price {
+    font-family: Fraunces;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #3d8168;
+  }
+  
+  .old-price {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #6c7289;
+    text-decoration: line-through;
+  }
+  
+  button {
+    height: 48px;
+    width: 295px;
+    padding: 0px;
+    border: 0px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3d8168;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+    gap: 11px;
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .card {
+      height: 450px;
+      width: 600px;
+      display: flex;
+    }
+  
+    .mobile-img {
+      display: none;
+    }
+  
+    .desktop-img {
+      display: inline;
+      width: 50%;
+      height: 100%;
+    }
+  
+    section {
+      width: 40%;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 32px;
+    }
+    button {
+      cursor: pointer;
+      background: #1a4032;
+    }
+  }
+  
